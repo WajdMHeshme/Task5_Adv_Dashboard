@@ -1,0 +1,36 @@
+.upload-square-add {
+    height: 208px;
+    border: 2px dashed #adb5bd;
+    border-radius: 8px;
+    transition: border-color 0.2s ease;
+    background-color: #F8F8FF;
+}
+
+.h-input {
+    height: 54px !important;
+
+}
+
+.save-btn {
+    width: 200px !important;
+    height: 48px !important;
+}
+
+.mt-76px {
+    margin-top: 76px !important;
+}
+
+@media screen and (max-width: 768px) {
+    .upload-square-add {
+        height: 120px;
+    }
+
+    .save-btn {
+        width: 100% !important;
+    }
+
+    .mrg {
+        margin-left: 36px;
+        margin-top: 2px;
+    }
+}

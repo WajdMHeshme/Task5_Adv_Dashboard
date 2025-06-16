@@ -1,0 +1,12 @@
+.imageSoonDev {
+    max-width: 400px;
+}
+
+.mytxt {
+    letter-spacing: 2px;
+    color: var(--main-yellow-color);
+}
+
+.info {
+    color: #cacaca;
+}

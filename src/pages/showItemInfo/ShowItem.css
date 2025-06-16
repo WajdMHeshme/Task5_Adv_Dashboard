@@ -1,0 +1,22 @@
+
+
+.circle-btn {
+width: 40px;
+height: 40px;
+}
+
+.fs-60px {
+    font-size: 60px !important;
+}
+.img-wh {
+    width: 320px;
+    height: 320px;
+}
+
+@media screen and (max-width:992px) {
+    .img-wh {
+    width: 250px;
+    height: 250px;
+}
+
+}

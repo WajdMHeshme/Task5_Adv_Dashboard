@@ -1,0 +1,37 @@
+.dashboard-container {
+  min-height: 100vh;
+}
+
+.toggle-btn {
+  width: 40px;
+  height: 40px;
+  border-bottom-right-radius: 12px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  background-color: var(--main-yellow-color);
+  transition: 0.3s ease;
+
+  svg {
+    font-size: 20px;
+  }
+}
+
+.toggle-btn:hover {
+  background-color: #ffda6a;
+}
+
+body,
+html,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+@media screen and (max-width:576px) {
+  .content-container {
+    padding: 0 !important;
+  }
+}
