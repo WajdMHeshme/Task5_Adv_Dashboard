@@ -32,7 +32,7 @@ const Dashboard = () => {
 
   return (
     <div className="dashboard-container d-flex">
-      <button onClick={toggleSidebar} className="toggle-btn d-flex justify-content-center align-items-center border-0 outline-0 text-white cursor-pointer">
+      <button onClick={toggleSidebar} className="toggle-btn top-btn-toggle d-flex justify-content-center align-items-center border-0 outline-0 text-white cursor-pointer">
         {isSidebarOpen ? <AiOutlineClose /> : <GoPerson />}
       </button>
 

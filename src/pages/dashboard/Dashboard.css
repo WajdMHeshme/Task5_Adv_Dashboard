@@ -16,7 +16,13 @@
 }
 
 
+.top-btn-toggle {
+ position: fixed !important;
+  top: 0 !important;
+}
+
 .toggle-btn {
+ 
   width: 40px;
   height: 40px;
   border-bottom-right-radius: 12px;
