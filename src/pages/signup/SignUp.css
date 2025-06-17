@@ -3,6 +3,9 @@
     border-radius: 20px;
 }
 
+.ex-myclass {
+    height: 100vh !important;
+}
 
 .h-100vh {
     height: 100vh;
@@ -89,5 +92,9 @@
         height: 100% !important;
         width: 95% !important;
         margin: auto;
+    }
+
+    .ex-myclass {
+        height: auto !important;
     }
 }

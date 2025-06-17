@@ -102,7 +102,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="backg h-100vh mw-100 bg-primary-color d-flex justify-content-center align-items-center flex-column p-relative">
+    <div className="backg h-100vh ex-myclass mw-100 bg-primary-color d-flex justify-content-center align-items-center flex-column p-relative">
       <div className="signing-width my-3">
         <Form
           className="bg-white log-shadow px-5 py-4 rounded-20 d-flex flex-column"
