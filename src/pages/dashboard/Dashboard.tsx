@@ -36,7 +36,7 @@ const Dashboard = () => {
         {isSidebarOpen ? <AiOutlineClose /> : <GoPerson />}
       </button>
 
-      <div className="sidebar-container">
+      <div className="sidebar-container forMobile">
         <SideBar isOpen={isSidebarOpen} />
       </div>
 

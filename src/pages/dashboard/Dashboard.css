@@ -2,6 +2,20 @@
   min-height: 100vh;
 }
 
+    /* .forMobile {
+        height: 100vh !important;
+    position: fixed !important;
+    z-index: 100 !important;
+} */
+
+
+.forMobile {
+        height: auto !important;
+    position: static !important;
+    z-index: 1 !important;
+}
+
+
 .toggle-btn {
   width: 40px;
   height: 40px;
@@ -34,4 +48,9 @@ html,
   .content-container {
     padding: 0 !important;
   }
+      .forMobile {
+        height: 100vh !important;
+    position: fixed !important;
+    z-index: 100 !important;
+}
 }
