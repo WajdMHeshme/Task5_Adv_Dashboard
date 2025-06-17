@@ -15,28 +15,34 @@ import EditeItem from "./pages/editePage/EditeItem";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Loader from "./loader/Loader";
 
-export const routes = createBrowserRouter([
+// ✅ تعديل هام: إضافة basename لمسار GitHub Pages
+export const routes = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <Auth />,
+      children: [
+        { path: "", element: <SignIn /> },
+        { path: "signup", element: <SignUp /> },
+      ],
+    },
+    {
+      path: "/dashboard",
+      element: <Dashboard />,
+      children: [
+        { path: "", element: <Products /> },
+        { path: "show/:id", element: <ShowItem /> },
+        { path: "add", element: <AddItem /> },
+        { path: "edit/:id", element: <EditeItem /> },
+        { path: "favorites", element: <Fav /> },
+        { path: "order", element: <OrderList /> },
+      ],
+    },
+  ],
   {
-    path: "/",
-    element: <Auth />,
-    children: [
-      { path: "", element: <SignIn /> },
-      { path: "signup", element: <SignUp /> },
-    ],
-  },
-  {
-    path: "/dashboard",
-    element: <Dashboard />,
-    children: [
-      { path: "", element: <Products /> },
-      { path: "show/:id", element: <ShowItem /> },
-      { path: "add", element: <AddItem /> },
-      { path: "edit/:id", element: <EditeItem /> },
-      { path: "favorites", element: <Fav /> },
-      { path: "order", element: <OrderList /> },
-    ],
-  },
-]);
+    basename: "/Task5_Adv_Dashboard", // 👈 لازم يطابق اسم الريبو في GitHub
+  }
+);
 
 const App = () => {
   const [loading, setLoading] = useState(true);
