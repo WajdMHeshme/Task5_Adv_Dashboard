@@ -10,7 +10,7 @@ import { toast, ToastContainer } from "react-toastify";
 
 const Dashboard = () => {
   const navigate = useNavigate();
-  const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [isSidebarOpen, setIsSidebarOpen] = useState<boolean>(true);
 
   useEffect(() => {
     const token = localStorage.getItem("token");
