@@ -2,13 +2,6 @@
   min-height: 100vh;
 }
 
-    /* .forMobile {
-        height: 100vh !important;
-    position: fixed !important;
-    z-index: 100 !important;
-} */
-
-
 .forMobile {
         height: auto !important;
     position: static !important;
