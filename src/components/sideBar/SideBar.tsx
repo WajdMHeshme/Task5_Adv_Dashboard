@@ -47,7 +47,7 @@ const SideBar: React.FC<SideBarProps> = ({ isOpen }) => {
   };
 
   return (
-    <div className={`sidebar position-relative h-auto d-flex flex-column ${isOpen ? "open" : "closed"} align-items-center pt-35px`}>
+    <div className={`sidebar position-relative h-auto d-flex flex-column ${isOpen ? "open" : "closed" } align-items-center pt-35px`}>
       {loading && (
         <div className="loading-overlay-sidebar">
           <div className="loading-text"> <div className="d-flex align-items-center"><ClipLoader color="#FEAF00" size={60}/> <span>Logging out...</span></div></div>

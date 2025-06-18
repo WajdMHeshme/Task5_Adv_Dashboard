@@ -47,7 +47,7 @@
 }
 
 .item {
-
+    position: relative;
     overflow: hidden;
     height: 41px;
     border-radius: 4px;
